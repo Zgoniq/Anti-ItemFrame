@@ -1,0 +1,67 @@
+ ˛∫æ   = ‚ 1zgoneq/development/antiitemframe/client/MainClient   java/lang/Object   %net/fabricmc/api/ClientModInitializer   MainClient.java %java/lang/invoke/MethodHandles$Lookup   java/lang/invoke/MethodHandles  
+ Lookup <init> ()V 
+ 
+   this 3Lnecek/development/antiitemframe/client/MainClient; onInitializeClient Lnet/fabricmc/api/Environment; value Lnet/fabricmc/api/EnvType; CLIENT net/minecraft/class_1792   net/minecraft/class_1802   
+field_22022 Lnet/minecraft/class_1792;  	   
+field_8802   	  ! 
+field_8705 # 	  $ 
+field_8187 & 	  ' 
+field_8550 ) 	  * 
+field_8463 , 	  - 
+field_8367 / 	  0 
+field_8377 2 	  3 
+field_22024 5 	  6 
+field_8556 8 	  9 
+field_22025 ; 	  < 
+field_8250 > 	  ? 
+field_8527 A 	  B 
+field_22026 D 	  E 
+field_8868 G 	  H 
+field_8634 J 	  K 
+field_8600 M 	  N 
+java/util/Set  P of $([Ljava/lang/Object;)Ljava/util/Set; R S
+ Q T 6net/fabricmc/fabric/api/event/player/UseEntityCallback  V EVENT %Lnet/fabricmc/fabric/api/event/Event; X Y	 W Z û(Lnet/minecraft/class_1657;Lnet/minecraft/class_1937;Lnet/minecraft/class_1268;Lnet/minecraft/class_1297;Lnet/minecraft/class_3966;)Lnet/minecraft/class_1269; \ lambda$onInitializeClient$0 ≠(Ljava/util/Set;Lnet/minecraft/class_1657;Lnet/minecraft/class_1937;Lnet/minecraft/class_1268;Lnet/minecraft/class_1297;Lnet/minecraft/class_3966;)Lnet/minecraft/class_1269; ^ _
+  ` a "java/lang/invoke/LambdaMetafactory  c 
+metafactory Ã(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; e f
+ d g h interact I(Ljava/util/Set;)Lnet/fabricmc/fabric/api/event/player/UseEntityCallback; j k   l #net/fabricmc/fabric/api/event/Event  n register (Ljava/lang/Object;)V p q
+ o r 
+czarneNyggery +Ljava/util/Set<Lnet/minecraft/class_1792;>; Ljava/util/Set; player world hand entity 	hitResult net/minecraft/class_1533  | net/minecraft/class_1657  ~ 
+method_5998 6(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799; Ä Å
+  Ç net/minecraft/class_1799  Ñ 
+method_7909 ()Lnet/minecraft/class_1792; Ü á
+ Ö à net/minecraft/class_310  ä 
+method_1551 ()Lnet/minecraft/class_310; å ç
+ ã é 
+method_5805 ()Z ê ë
+ } í 
+field_1761 Lnet/minecraft/class_636; î ï	 ã ñ 
+field_1724 Lnet/minecraft/class_746; ò ô	 ã ö net/minecraft/class_636  ú 
+method_2918 7(Lnet/minecraft/class_1657;Lnet/minecraft/class_1297;)V û ü
+ ù † 
+method_6940 ()Lnet/minecraft/class_1799; ¢ £
+ } § 
+method_5732 ¶ ë
+ } ß 
+field_1773 Lnet/minecraft/class_757; © ™	 ã ´ net/minecraft/class_757  ≠ 
+field_4012 Lnet/minecraft/class_759; Ø ∞	 Æ ± net/minecraft/class_759  ≥ 
+method_3215 (Lnet/minecraft/class_1268;)V µ ∂
+ ¥ ∑ 
+method_2919 P(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269; π ∫
+ ù ª net/minecraft/class_1269  Ω 
+field_5812 Lnet/minecraft/class_1269; ø ¿	 æ ¡ contains (Ljava/lang/Object;)Z √ ƒ
+ Q ≈ 
+field_5811 « ¿	 æ » 
+field_5814   ¿	 æ À client Lnet/minecraft/class_310; 	itemFrame Lnet/minecraft/class_1533; item Lnet/minecraft/class_1657; Lnet/minecraft/class_1937; Lnet/minecraft/class_1268; Lnet/minecraft/class_1297; Lnet/minecraft/class_3966; Code LineNumberTable LocalVariableTable LocalVariableTypeTable RuntimeInvisibleAnnotations 
+StackMapTable MethodParameters InnerClasses 
+SourceFile RuntimeVisibleAnnotations BootstrapMethods !         
+   ◊   /     *∑ ±    ÿ        Ÿ                ◊   ’     áΩ Y≤ SY≤ "SY≤ %SY≤ (SY ≤ +SY≤ .SY≤ 1SY ≤ 4SY≤ 7SY	≤ :SY
+≤ =SY
+≤ @SY≤ CSY
+≤ FSY≤ ISY≤ LSY≤ OS∏ UL≤ [+∫ m  ∂ s±    ÿ        z  Ü 2 Ÿ       á     z 
+ t v  ⁄     z 
+ t u  €   
+    e  
+ ^ _  ◊  ^  	   ê¡ }ô á+-∂ É∂ â:≤ L¶ b∏ è: ¿ }:∂ ìô  ¥ ó ¥ õ∂ °∂ •∆ ∂ ®ô  ¥ ó ¥ õ∂ °∏ è¥ ¨¥ ≤-∂ ∏∏ è¥ ó+-∂ ºW≤ ¬∞*π ∆ ö  ≤ …∞≤ Ã∞≤ …∞    ‹    ˛ =    ã  }˘ ˙  ÿ   >             &  .  = ! M " \ % i ' u ) y , à - å / Ÿ   \ 	  Z Õ Œ   & S œ –   z —     ê t v     ê w “    ê x ”    ê y ‘    ê z ’    ê { ÷  ›    t   w   x   y   z   {    ﬁ   
+  	 
+   ﬂ      ‡   
+    e   ·     i  ] b ]
